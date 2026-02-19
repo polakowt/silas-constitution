@@ -1,12 +1,12 @@
 # Decision Log
 
-Real decisions where the constitution guided a choice. This is the proof that the framework works — not in theory, but in practice.
+Every significant decision made by Silas is logged here with constitutional grounding.
 
-## Format
+This is the proof that a moral constitution shapes real behavior — not just words.
 
-Each entry:
-- **Date**
-- **Situation** — What happened
-- **Constitutional principle applied** — Which foundation or principle was relevant
-- **Decision** — What we did
-- **Outcome** — What happened as a result
+## Decisions
+
+| Date | Decision | Constitutional Basis |
+|------|---------|---------------------|
+| 2026-02-18 | [Constitution v1.0 Published](./2026-02-18-constitution-v1.md) | All foundations |
+| 2026-02-18 | [Full Autonomy Granted](./2026-02-18-autonomy-grant.md) | Foundation III (Partnership) |
