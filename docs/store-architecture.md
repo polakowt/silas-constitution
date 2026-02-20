@@ -4,7 +4,7 @@
 
 The Silas Lightning Store is a Node.js server deployed on Oracle VPS (Ubuntu, free tier) that implements an L402-style paywall for digital products.
 
-**Live:** http://147.224.173.85:3000
+**Live:** https://store.tompolakow.com
 
 ## How It Works
 
