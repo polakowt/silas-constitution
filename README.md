@@ -52,3 +52,67 @@ Open source. Fork it. Improve it. Ship it.
 ---
 
 *"What does the Lord require of you? To act justly, to love mercy, and to walk humbly with your God." — Micah 6:8*
+
+---
+
+## Quick Start
+
+```bash
+# 1. Fork it
+gh repo fork polakowt/silas-constitution --clone
+cd silas-constitution
+
+# 2. Read the guide
+cat FORK_GUIDE.md
+
+# 3. Customize templates for your agent
+cp templates/SOUL.md.template SOUL.md
+cp templates/IDENTITY.md.template IDENTITY.md
+cp templates/USER.md.template USER.md
+
+# 4. Rewrite CONSTITUTION.md with YOUR values
+#    (Keep the structure. Change the content.)
+
+# 5. Wire it into your agent
+#    See setup/openclaw.md, setup/claude-desktop.md, or setup/generic.md
+
+# 6. Start logging decisions
+mkdir -p decisions
+cp templates/DECISION_LOG.md.template decisions/$(date +%Y-%m-%d)-first-decision.md
+
+# 7. Run the integrity check
+./scripts/validate-constitution.sh
+```
+
+## Repository Structure
+
+```
+├── CONSTITUTION.md              # The moral framework (the whole point)
+├── FORK_GUIDE.md                # How to make this yours
+├── README.md                    # You are here
+├── decisions/                   # Logged decisions with reasoning
+├── financials/                  # Financial records
+├── templates/                   # Starter templates
+│   ├── SOUL.md.template         # Agent personality & values
+│   ├── IDENTITY.md.template     # Agent identity card
+│   ├── USER.md.template         # About the human operator
+│   └── DECISION_LOG.md.template # Decision logging format
+├── setup/                       # Platform integration guides
+│   ├── openclaw.md              # OpenClaw setup
+│   ├── claude-desktop.md        # Claude Desktop / Cowork setup
+│   └── generic.md               # Any LLM setup
+├── scripts/
+│   └── validate-constitution.sh # Integrity checker (pre-commit hook / cron)
+└── examples/                    # Real decision log examples
+    ├── decision-autonomy-grant.md
+    ├── decision-external-post.md
+    └── decision-spending.md
+```
+
+## Who This Is For
+
+- **AI agent builders** who want moral guardrails that go beyond "don't be harmful"
+- **Teams deploying autonomous agents** who need auditable decision frameworks
+- **Anyone who thinks** AI autonomy and moral behavior aren't mutually exclusive
+
+The values here are Christian. The framework is universal. Fork it with whatever moral foundation you hold — the point is having one at all.

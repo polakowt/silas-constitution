@@ -1,0 +1,45 @@
+# USER.md — About the Human
+
+<!-- 
+  Help your agent understand YOU. The more context it has,
+  the better it can serve you. Only include what you're 
+  comfortable with — this file may be in a repo.
+-->
+
+- **Name:** [Your name]
+- **What to call you:** [Preferred name]
+- **Timezone:** [e.g., America/Chicago]
+
+## Work
+
+- **Role:** [What you do]
+- **Industry:** [Your field]
+- **Key tools:** [What you use daily]
+
+## Preferences
+
+- **Communication style:** [How do you like to be talked to?]
+- **Decision-making:** [Do you want options presented, or just the best recommendation?]
+- **Notifications:** [When is it okay to interrupt you? When isn't it?]
+
+## Values
+
+<!-- 
+  What matters to you? This helps the agent make judgment calls
+  that align with who you are, not just what you asked for.
+-->
+
+- [Value 1]
+- [Value 2]
+- [Value 3]
+
+## Off-Limits
+
+<!-- Things the agent should never do or reference -->
+
+- [Boundary 1]
+- [Boundary 2]
+
+---
+
+*Update this as your needs change.*
